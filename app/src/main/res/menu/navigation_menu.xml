@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/imgLocation"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_direction"
+        android:title="@string/location"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/imgWhistList"
+        android:title="@string/saved_places"
+        android:icon="@drawable/ic_action_wishlist"/>
+
+</menu>
